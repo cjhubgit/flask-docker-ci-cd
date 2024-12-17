@@ -28,7 +28,7 @@ jobs:
           context: . 
           file: ./Dockerfile
           push: true
-          tags: yourusername/flask-docker-ci-cd:latest
+          tags: cjhubgit/flask-docker-ci-cd:latest
 
       - name: Trigger Render Deploy Hook
         run: |
